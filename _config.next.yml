@@ -1,0 +1,60 @@
+# 菜单配置
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-folder-open
+  tags: /tags/ || fa fa-tags
+  prose: /prose/ || fa fa-pen-fancy
+  about: /about/ || fa fa-user
+
+# 侧边栏配置
+sidebar:
+  position: left
+  display: post
+  offset: 12
+  b2t: false
+  scrollpercent: true
+
+# 阅读进度条
+reading_progress:
+  enable: true
+  color: "#37c6c0"
+  height: 3px
+
+# 字体设置
+font:
+  enable: true
+  host: https://fonts.loli.net
+  global:
+    external: true
+    family: "Noto Serif SC"
+    size: 16px
+
+# 代码块
+codeblock:
+  theme:
+    light: default
+    dark: darker
+  copy_button:
+    enable: true
+    show_result: true
+    style: flat
+
+# 文章元数据
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+
+# 打赏
+reward:
+  enable: false
+  comment: 感谢您的支持！
+
+# 版权声明
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: true
+  language:

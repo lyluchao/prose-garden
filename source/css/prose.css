@@ -1,0 +1,82 @@
+/* 散文页面样式 */
+.prose-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.8;
+  font-size: 17px;
+  color: #333;
+}
+
+.prose-page .post-content {
+  font-family: 'Noto Serif SC', serif;
+}
+
+.prose-page h1,
+.prose-page h2,
+.prose-page h3,
+.prose-page h4 {
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: #2c3e50;
+}
+
+.prose-page p {
+  margin-bottom: 1.5em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.prose-page blockquote {
+  border-left: 4px solid #42b983;
+  background-color: #f8f9fa;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: #555;
+}
+
+.prose-list {
+  list-style: none;
+  padding: 0;
+}
+
+.prose-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.prose-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.prose-link:hover {
+  color: #42b983;
+}
+
+.prose-title {
+  font-weight: 500;
+}
+
+.prose-date {
+  color: #999;
+  font-size: 0.9em;
+}
+
+/* 散文阅读模式 */
+.reading-mode .prose-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.reading-mode .prose-page p {
+  font-size: 18px;
+  line-height: 1.9;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "prose-garden",
+  "version": "1.0.0",
+  "description": "散文创作与分享平台",
+  "main": "index.js",
+  "scripts": {
+    "start": "hexo server -p 4001",
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "new": "hexo new",
+    "new:prose": "hexo new --type prose",
+    "serve": "hexo server"
+  },
+  "keywords": ["散文", "文学", "hexo", "博客"],
+  "author": "lyluchao",
+  "license": "MIT",
+  "dependencies": {
+    "hexo": "^6.3.0",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^5.0.0",
+    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-server": "^3.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-sitemap": "^3.0.1"
+  }
+}
