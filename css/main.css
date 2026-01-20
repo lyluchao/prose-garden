@@ -1414,7 +1414,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff1afe;
+  background: #5dff6e;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2793,8 +2793,20 @@ body {
   background: rgba(255,255,255,0.85); /* 白色，85%不透明度 */
   border-radius: 15px; /* 可选：添加圆角 */
 }
-/* 设置侧边栏背景透明度 */
 .sidebar {
   background-color: rgba(255,255,255,0.8);
   opacity: 0.9;
+}
+/* 仅针对主页生效的样式 */
+.home body {
+/* 示例1：设置一个温柔的浅米色背景 */
+  background-color: #f8f5f0;
+/* 示例2：使用一张特别的背景图（图片需放在主题的images目录下） */
+/* background-image: url(/images/home-bg.jpg); */
+/* background-size: cover; */
+}
+/* 更进一步：可以调整主页文章卡片的背景，使其更突出 */
+.home .main-inner .post-block {
+  background-color: rgba(255,255,255,0.92); /* 更白的卡片，增强对比 */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05); /* 添加细微的阴影提升层次感 */
 }
