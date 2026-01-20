@@ -1414,7 +1414,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #afff98;
+  background: #f6f;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2809,4 +2809,34 @@ body {
 .home .main-inner .post-block {
   background-color: rgba(255,255,255,0.92); /* 更白的卡片，增强对比 */
   box-shadow: 0 5px 20px rgba(0,0,0,0.05); /* 添加细微的阴影提升层次感 */
+}
+/* 关于页面外部链接样式 */
+.page-about a[target="_blank"] {
+  display: inline-block;
+  background-color: #f0f7ff; /* 浅蓝色背景 */
+  border: 1px solid #3498db; /* 蓝色边框 */
+  color: #2980b9; /* 蓝色文字 */
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin: 5px 0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.page-about a[target="_blank"]:hover {
+  background-color: #3498db; /* 悬停时背景变深蓝 */
+  color: #fff; /* 悬停时文字变白 */
+  text-decoration: none;
+  transform: translateY(-2px); /* 轻微上浮效果 */
+  box-shadow: 0 4px 8px rgba(52,152,219,0.3);
+}
+/* 你也可以为不同网站定制不同颜色，例如： */
+.page-about a[href*="诗阁"] {
+/* 链接地址或文字包含“诗歌” */
+  border-color: #9b59b6;
+  background-color: #f9f0ff;
+  color: #8e44ad;
+}
+.page-about a[href*="剑阵"]:hover {
+  background-color: #9b59b6;
 }
