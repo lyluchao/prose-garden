@@ -1414,7 +1414,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #a13b46;
+  background: #9496ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2775,4 +2775,26 @@ header.header {
   .sidebar-active .footer-fixed {
     left: 320px;
   }
+}
+/* 设置整个页面背景（使用图片） */
+body {
+  background: url("/images/your-background.jpg"); /* 将图片放入 `themes/next/source/images/` 目录并替换名称 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; /* 让背景图覆盖整个页面 */
+  background-position: center;
+}
+/* 或者，设置为纯色背景 */
+body {
+  background-color: #f5f5f5; /* 替换为你喜欢的颜色值，如#e8f4f8（浅蓝） */
+}
+/* 设置文章内容区域的背景色和透明度（营造卡片效果） */
+.main-inner > .post-block {
+  background: rgba(255,255,255,0.85); /* 白色，85%不透明度 */
+  border-radius: 15px; /* 可选：添加圆角 */
+}
+/* 设置侧边栏背景透明度 */
+.sidebar {
+  background-color: rgba(255,255,255,0.8);
+  opacity: 0.9;
 }
